@@ -71,6 +71,7 @@ class Cart {
 
     this.view = new CartView('.modal')
   }
+  
   open() {
     this.view.render(this.list)
     this.view.open()
